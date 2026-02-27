@@ -1,0 +1,70 @@
+events:
+  - title: Winter Festival1
+    startDate: 2025-01-15
+    endDate: 2025-01-15
+    location: Snowy Mountain
+    continent: North America
+    link: https://www.winterfest.ca
+
+  - title: Spring Art Exhibit
+    startDate: 2025-03-22
+    endDate: 2025-03-22
+    location: City Gallery
+    continent: North America
+    link: https://www.citygallery.com
+
+  - title: Summer Music Fest
+    startDate: 2025-06-10
+    endDate: 2025-06-10
+    location: Beach Park
+    continent: Oceania
+    link: https://www.summerfest.au
+
+  - title: Autumn Harvest Fair
+    startDate: 2025-09-05
+    endDate: 2025-09-05
+    location: Green Valley
+    continent: Europe
+    link: https://www.harvestfair.fr
+
+  - title: Holiday Market
+    startDate: 2025-12-24
+    endDate: 2025-12-24
+    location: Downtown
+    continent: Europe
+    link: https://www.holidaymarket.de
+
+  - title: Valentine's Celebration
+    startDate: 2026-02-14
+    endDate: 2026-02-14
+    location: Sunset Beach
+    continent: South America
+    link: https://www.valentinecelebration.br
+
+  - title: Spring Gardening Day
+    startDate: 2026-04-01
+    endDate: 2026-04-01
+    location: Community Center
+    continent: Asia
+    link: https://www.gardeningday.jp
+
+  - title: Annual Science Fair
+    startDate: 2026-07-19
+    endDate: 2026-07-19
+    location: Innovation Hub
+    continent: Africa
+    link: https://www.sciencefair.co.za
+
+  - title: Tech Conference
+    startDate: 2026-11-11
+    endDate: 2026-11-11
+    location: Convention Center
+    continent: Europe
+    link: https://www.techconfuk.co.uk
+
+  - title: Culture and Coffee Week
+    startDate: 2026-05-08
+    endDate: 2026-05-08
+    location: Local Cafe
+    continent: Europe
+    link: https://www.culturecoffeweek.it

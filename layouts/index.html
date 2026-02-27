@@ -10,7 +10,7 @@
     or could be of interest for people working in those topics, e.g. astrodynamics tools.
 </p>
 
-{{ with $file := "confs.csv" }}
+{{ with $file := "confs.yaml" }}
 {{ with resources.Get $file }}
 {{ with . | transform.Unmarshal }}
 <table id="confsTable">
@@ -24,13 +24,13 @@
         </tr>
     </thead>
     <tbody>
-        {{ range after 1 . }}
+        {{ range  .events }}
         <tr>
-            <td><a href="https://{{ index . 5 }}">{{ index . 0 }}</a></td>
-            <td>{{ index . 1 }}</td>
-            <td>{{ index . 2 }}</td>
-            <td>{{ index . 3 }}</td>
-            <td>{{ index . 4 }}</td>
+            <td><a href="https://{{ .link }}">{{ .title }}</a></td>
+            <td>{{ .startDate }}</td>
+            <td>{{ .endDate }}</td>
+            <td>{{ .location }}</td>
+            <td>{{ .continent }}</td>
         </tr>
         {{ end }}
     </tbody>
