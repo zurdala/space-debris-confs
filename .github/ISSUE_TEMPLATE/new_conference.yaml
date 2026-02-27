@@ -1,0 +1,62 @@
+name: Submit conference
+description: Propose a new conference to be added.
+title: "[NEW]: "
+labels: ["new"]
+assignees:
+  - zurdala
+type: issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this!
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Title of the conference, congress, workshop
+      placeholder: ex. IAC
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Link
+      description: A link to its website, or to an announcement
+      placeholder: https://www.example.com
+    validations:
+      required: true
+  - type: input
+    id: dateStart
+    attributes:
+      label: Start date
+    validations:
+      required: true
+  - type: input
+    id: dateEnd
+    attributes:
+      label: End date
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where the event is
+      placeholder: Betelgeuse, Orion
+    validations:
+      required: true
+  - type: dropdown
+    id: continent
+    attributes:
+      label: Continent
+      multiple: false
+      options:
+        - Europe
+        - Asia
+        - Africa
+        - Oceanía
+        - North America
+        - South America
+        - Antarctica
+
