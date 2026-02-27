@@ -9,5 +9,5 @@ theme = "hugo-bearblog"
 
 [params]
 lastUpdate = "2026-02-25T00:00:00"
-githubURL = "https://www.github.com/zurdala/space-debris-confs.git"
-githubURLIssue = "https://www.github.com/zurdala/space-debris-confs.git"
+githubURL = "https://github.com/zurdala/space-debris-confs"
+githubURLIssue = "https://github.com/zurdala/space-debris-confs/issues/new"
