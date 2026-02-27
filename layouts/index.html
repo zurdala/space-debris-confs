@@ -2,34 +2,35 @@
 
 {{ define "main" }}
 
-
-
-<h1>{{.Site.Title}}</h1>
-
 <p>Last update: <time>{{.Site.Params.lastUpdate | time.Format "2 Feb 2006" }}</time></p>
 
 <p>
     Includes most conferences, congresses, workshops... that include the topic
-    of space debris and space situational awareness (SSA) in their programme.
+    of space debris and space situational awareness (SSA) in their programme,
+    or could be of interest for people working in those topics, e.g. astrodynamics tools.
 </p>
 
 {{ with $file := "confs.csv" }}
 {{ with resources.Get $file }}
 {{ with . | transform.Unmarshal }}
-<table id="confstable">
+<table id="confsTable">
     <thead>
         <tr>
-            {{ range index . 0 }}
-            <th>{{ . }}</th>
-            {{ end }}
+            <th width="40%">Title</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Location</th>
+            <th>Continent</th>
         </tr>
     </thead>
     <tbody>
         {{ range after 1 . }}
         <tr>
-            {{ range . }}
-            <td>{{ . }}</td>
-            {{ end }}
+            <td><a href="https://{{ index . 5 }}">{{ index . 0 }}</a></td>
+            <td>{{ index . 1 }}</td>
+            <td>{{ index . 2 }}</td>
+            <td>{{ index . 3 }}</td>
+            <td>{{ index . 4 }}</td>
         </tr>
         {{ end }}
     </tbody>
@@ -38,15 +39,17 @@
 {{ end }}
 {{ end }}
 
+
 <script>
-    let table = new DataTable('#confstable', {
-    columnDefs: [
-        {
-            targets: [1,2],
-            render: DataTable.render.datetime('DD MMM YYYY')
-        }
-    ]
-});
+    let tableUpcoming = new DataTable('#confsTable', {
+        columnDefs: [
+            {
+                targets: [1, 2],
+                render: DataTable.render.datetime('DD MMM YYYY')
+            }
+        ],
+        order: [[1, 'asc']]
+    });
 </script>
 
 {{ end }}

@@ -2,10 +2,12 @@ baseURL = 'https://space-debris-confs.github.io/'
 languageCode = 'en-us'
 title = 'Conferences on Space Debris'
 
-theme = "hugo-simple"
+theme = "hugo-bearblog"
 
 [security]
   enableInlineShortcodes = true
 
 [params]
 lastUpdate = "2026-02-25T00:00:00"
+githubURL = "https://www.github.com/zurdala/space-debris-confs.git"
+githubURLIssue = "https://www.github.com/zurdala/space-debris-confs.git"
