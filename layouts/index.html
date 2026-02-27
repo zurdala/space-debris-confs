@@ -1,0 +1,52 @@
+{{ define "title" }}{{.Site.Title}}{{ end }}
+
+{{ define "main" }}
+
+
+
+<h1>{{.Site.Title}}</h1>
+
+<p>Last update: <time>{{.Site.Params.lastUpdate | time.Format "2 Feb 2006" }}</time></p>
+
+<p>
+    Includes most conferences, congresses, workshops... that include the topic
+    of space debris and space situational awareness (SSA) in their programme.
+</p>
+
+{{ with $file := "confs.csv" }}
+{{ with resources.Get $file }}
+{{ with . | transform.Unmarshal }}
+<table id="confstable">
+    <thead>
+        <tr>
+            {{ range index . 0 }}
+            <th>{{ . }}</th>
+            {{ end }}
+        </tr>
+    </thead>
+    <tbody>
+        {{ range after 1 . }}
+        <tr>
+            {{ range . }}
+            <td>{{ . }}</td>
+            {{ end }}
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<script>
+    let table = new DataTable('#confstable', {
+    columnDefs: [
+        {
+            targets: [1,2],
+            render: DataTable.render.datetime('DD MMM YYYY')
+        }
+    ]
+});
+</script>
+
+{{ end }}
