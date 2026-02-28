@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 
-<p>Last update: <time>{{.Site.Params.lastUpdate | time.Format "2 Feb 2006" }}</time></p>
+<p><i>Last update: <b>{{.Site.Params.lastUpdate | time.Format "2 Feb 2006" }}</b></i></p>
 
 <p>
     It aims to include most conferences, congresses, workshops... that are somewhat related to the topic
@@ -10,17 +10,20 @@
     or that could be of interest for people working in those topics, e.g. astrodynamics tools.
 </p>
 
+
 {{ with $file := "confs.yaml" }}
 {{ with resources.Get $file }}
 {{ with . | transform.Unmarshal }}
+
+<h3 id="upcomingTitle">Upcoming events</h3>
+
 <table id="confsTable">
     <thead>
         <tr>
-            <th width="40%">Title</th>
-            <th>Start</th>
-            <th>End</th>
-            <th>Location</th>
-            <th>Continent</th>
+            <th width="50%">Title</th>
+            <th width="12%">Start</th>
+            <th width="12%">End</th>
+            <th width="26%">Location</th>
         </tr>
     </thead>
     <tbody>
@@ -30,7 +33,29 @@
             <td>{{ .startDate }}</td>
             <td>{{ .endDate }}</td>
             <td>{{ .location }}</td>
-            <td>{{ .continent }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+<h3 id="pastTitle">Past events</h3>
+
+<table id="confsTablePast">
+    <thead>
+        <tr>
+            <th width="50%">Title</th>
+            <th width="12%">Start</th>
+            <th width="12%">End</th>
+            <th width="26%">Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range  .pastEvents }}
+        <tr>
+            <td><a href="https://{{ .link }}">{{ .title }}</a></td>
+            <td>{{ .startDate }}</td>
+            <td>{{ .endDate }}</td>
+            <td>{{ .location }}</td>
         </tr>
         {{ end }}
     </tbody>
@@ -49,6 +74,16 @@
             }
         ],
         order: [[1, 'asc']]
+    });
+
+    let tablePast = new DataTable('#confsTablePast', {
+        columnDefs: [
+            {
+                targets: [1, 2],
+                render: DataTable.render.datetime('DD MMM YYYY')
+            }
+        ],
+        order: [[1, 'desc']]
     });
 </script>
 

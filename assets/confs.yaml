@@ -20,13 +20,6 @@ events:
     continent: Europe
     link: https://indico.esa.int/event/651/
 
-  - title: Autumn Harvest Fair
-    startDate: 2025-09-05
-    endDate: 2025-09-05
-    location: Green Valley
-    continent: Europe
-    link: https://www.harvestfair.fr
-
   - title: KePaSSA (Key topics in orbit propagation and their applications to Space Situational Awareness)
     startDate: 2026-05-27
     endDate: 2026-05-29
@@ -69,20 +62,6 @@ events:
     continent: Europe
     link: https://web.cvent.com/event/dffa94f9-d8cf-4201-88ae-f8d0a3049700/summary?environment=P2
     
-  - title: 2nd International Space Debris Conference
-    startDate: 2026-01-26
-    endDate: 2026-01-27
-    location: Riyahd, Saudi Arabia
-    continent: Asia
-    link: https://ssa.gov.sa/sdc26/
-    
-  - title: 9th European Conference on Space Debris
-    startDate: 2025-04-01
-    endDate: 2025-04-04
-    location: Bonn, Germany
-    continent: Europe
-    link: https://space-debris-conference.sdo.esoc.esa.int/page/welcome
-    
   - title: SSA Operators Workshop
     startDate: 2026-06-02
     endDate: 2026-06-06
@@ -104,33 +83,12 @@ events:
     continent: North America
     link: https://amostech.com
             
-  - title: AMOS (Advanced Maui Optical and Space Surveillance Technologies)
-    startDate: 2026-09-15
-    endDate: 2026-09-18
-    location: Maui, Hawai'i, USA
-    continent: North America
-    link: https://amostech.com  
-            
-  - title: AMOS (Advanced Maui Optical and Space Surveillance Technologies)
-    startDate: 2026-09-15
-    endDate: 2026-09-18
-    location: Maui, Hawai'i, USA
-    continent: North America
-    link: https://amostech.com
-            
   - title: ESA 13th GNC & 10th ICATT Conference
     startDate: 2026-09-28
     endDate: 2026-10-02
     location: Sevilla, Spain
     continent: Europe
     link: https://atpi.eventsair.com/gncicatt/
-            
-  - title: 36th AIAA/AAS Space Flight Mechanics Meeting
-    startDate: 2026-01-12
-    endDate: 2026-01-16
-    location: Orlando, FL, USA
-    continent: North America
-    link: https://www.space-flight.org/docs/2026_winter/2026_winter.html
     
   - title: 9th International Meeting on Celestial Mechanics (CELMEC IX)
     startDate: 2026-09-14
@@ -146,10 +104,39 @@ events:
     continent: Europe
     link: https://www.issfd2026.fr/
     
+pastEvents:
+
   - title: International Conjunction Assessment Workshop 2025
     startDate: 2025-06-18
     endDate: 2025-06-20
     location: Toulouse, France
     continent: Europe
     link: https://spod.cnes.fr/AuthServlet/Control?page=105
+    
+  - title: 9th European Conference on Space Debris
+    startDate: 2025-04-01
+    endDate: 2025-04-04
+    location: Bonn, Germany
+    continent: Europe
+    link: https://space-debris-conference.sdo.esoc.esa.int/page/welcome
+            
+  - title: 36th AIAA/AAS Space Flight Mechanics Meeting
+    startDate: 2026-01-12
+    endDate: 2026-01-16
+    location: Orlando, FL, USA
+    continent: North America
+    link: https://www.space-flight.org/docs/2026_winter/2026_winter.html
 
+  - title: 2nd International Space Debris Conference
+    startDate: 2026-01-26
+    endDate: 2026-01-27
+    location: Riyahd, Saudi Arabia
+    continent: Asia
+    link: https://ssa.gov.sa/sdc26/
+
+  - title: 12th Annual Space Traffic Conference
+    startDate: 2026-02-18
+    endDate: 2026-02-19
+    location: Austin, TX, USA
+    continent: North America
+    link: https://iaaspace.org/event/12th-space-traffic-conference-2026/ 
