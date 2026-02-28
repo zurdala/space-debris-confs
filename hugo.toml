@@ -1,6 +1,6 @@
 baseURL = 'https://zurdala.github.io/space-debris-confs/'
 languageCode = 'en-us'
-title = 'Conferences on Space Debris'
+title = 'Conferences on Space Debris, SSA and STM'
 
 theme = "hugo-bearblog"
 
