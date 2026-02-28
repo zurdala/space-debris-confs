@@ -29,7 +29,7 @@
     <tbody>
         {{ range  .events }}
         <tr>
-            <td><a href="https://{{ .link }}">{{ .title }}</a></td>
+            <td><a href="{{ .link }}">{{ .title }}</a></td>
             <td>{{ .startDate }}</td>
             <td>{{ .endDate }}</td>
             <td>{{ .location }}</td>
