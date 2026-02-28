@@ -1,24 +1,24 @@
 events:
-  - title: Winter Festival1
-    startDate: 2025-01-15
-    endDate: 2025-01-15
-    location: Snowy Mountain
-    continent: North America
-    link: https://www.winterfest.ca
+  - title: ESA Space Safety Industry Day 2026
+    startDate: 2026-06-16
+    endDate: 2026-06-16
+    location: ESTEC, Netherlands
+    continent: Europe
+    link: https://indico.esa.int/event/646/overview
 
-  - title: Spring Art Exhibit
-    startDate: 2025-03-22
-    endDate: 2025-03-22
-    location: City Gallery
-    continent: North America
-    link: https://www.citygallery.com
+  - title: ESA Clean Space Days 2026
+    startDate: 2026-06-29
+    endDate: 2026-07-03
+    location: ESTEC, Netherlands
+    continent: Europe
+    link: https://indico.esa.int/event/644/
 
-  - title: Summer Music Fest
-    startDate: 2025-06-10
-    endDate: 2025-06-10
-    location: Beach Park
-    continent: Oceania
-    link: https://www.summerfest.au
+  - title: Zero Debris Week
+    startDate: 2026-09-08
+    endDate: 2026-09-11
+    location: TBD
+    continent: Europe
+    link: https://indico.esa.int/event/651/
 
   - title: Autumn Harvest Fair
     startDate: 2025-09-05
@@ -27,44 +27,129 @@ events:
     continent: Europe
     link: https://www.harvestfair.fr
 
-  - title: Holiday Market
-    startDate: 2025-12-24
-    endDate: 2025-12-24
-    location: Downtown
+  - title: KePaSSA (Key topics in orbit propagation and their applications to Space Situational Awareness)
+    startDate: 2026-05-27
+    endDate: 2026-05-29
+    location: Toulon, France
     continent: Europe
-    link: https://www.holidaymarket.de
+    link: https://kepassa2026.univ-tln.fr/
 
-  - title: Valentine's Celebration
-    startDate: 2026-02-14
-    endDate: 2026-02-14
-    location: Sunset Beach
-    continent: South America
-    link: https://www.valentinecelebration.br
-
-  - title: Spring Gardening Day
-    startDate: 2026-04-01
-    endDate: 2026-04-01
-    location: Community Center
+  - title: 77th IAC 2026
+    startDate: 2026-10-05
+    endDate: 2026-10-09
+    location: Antalya, Turkey
     continent: Asia
-    link: https://www.gardeningday.jp
+    link: https://www.iac2026.org/
 
-  - title: Annual Science Fair
-    startDate: 2026-07-19
-    endDate: 2026-07-19
-    location: Innovation Hub
-    continent: Africa
-    link: https://www.sciencefair.co.za
-
-  - title: Tech Conference
-    startDate: 2026-11-11
-    endDate: 2026-11-11
-    location: Convention Center
+  - title: 46th COSPAR Scientific Assembly
+    startDate: 2026-08-01
+    endDate: 2026-08-09
+    location: Florence, Italy
     continent: Europe
-    link: https://www.techconfuk.co.uk
+    link: https://cospar2026.org
 
-  - title: Culture and Coffee Week
-    startDate: 2026-05-08
-    endDate: 2026-05-08
-    location: Local Cafe
+  - title: Space Debris and Sustainability Conference
+    startDate: 2026-05-04
+    endDate: 2026-05-06
+    location: Hong Kong
+    continent: Asia
+    link: https://www.ssconf.space/
+
+  - title: SpaceOps 2026 Workshop
+    startDate: 2026-04-21
+    endDate: 2026-04-23
+    location: Dubai, UAE
+    continent: Asia
+    link: https://www.spaceops.org/events/workshops/sops2026-workshop/
+
+  - title: 5th IAA Conference on Space Situational Awareness (ICSSA)
+    startDate: 2026-04-07
+    endDate: 2026-04-09
+    location: Tres Cantos, Madrid, Spain
     continent: Europe
-    link: https://www.culturecoffeweek.it
+    link: https://web.cvent.com/event/dffa94f9-d8cf-4201-88ae-f8d0a3049700/summary?environment=P2
+    
+  - title: 2nd International Space Debris Conference
+    startDate: 2026-01-26
+    endDate: 2026-01-27
+    location: Riyahd, Saudi Arabia
+    continent: Asia
+    link: https://ssa.gov.sa/sdc26/
+    
+  - title: 9th European Conference on Space Debris
+    startDate: 2025-04-01
+    endDate: 2025-04-04
+    location: Bonn, Germany
+    continent: Europe
+    link: https://space-debris-conference.sdo.esoc.esa.int/page/welcome
+    
+  - title: SSA Operators Workshop
+    startDate: 2026-06-02
+    endDate: 2026-06-06
+    location: Boulder, CO, USA
+    continent: North America
+    link: https://advancedssa.com/workshop/
+    
+  - title: 2026 AAS/AIAA Astrodynamics Specialist Conference
+    startDate: 2026-07-26
+    endDate: 2026-07-30
+    location: Whistler, BC, Canada
+    continent: North America
+    link: https://www.space-flight.org/docs/2026_summer/2026_summer.html
+        
+  - title: AMOS (Advanced Maui Optical and Space Surveillance Technologies)
+    startDate: 2026-09-15
+    endDate: 2026-09-18
+    location: Maui, Hawai'i, USA
+    continent: North America
+    link: https://amostech.com
+            
+  - title: AMOS (Advanced Maui Optical and Space Surveillance Technologies)
+    startDate: 2026-09-15
+    endDate: 2026-09-18
+    location: Maui, Hawai'i, USA
+    continent: North America
+    link: https://amostech.com  
+            
+  - title: AMOS (Advanced Maui Optical and Space Surveillance Technologies)
+    startDate: 2026-09-15
+    endDate: 2026-09-18
+    location: Maui, Hawai'i, USA
+    continent: North America
+    link: https://amostech.com
+            
+  - title: ESA 13th GNC & 10th ICATT Conference
+    startDate: 2026-09-28
+    endDate: 2026-10-02
+    location: Sevilla, Spain
+    continent: Europe
+    link: https://atpi.eventsair.com/gncicatt/
+            
+  - title: 36th AIAA/AAS Space Flight Mechanics Meeting
+    startDate: 2026-01-12
+    endDate: 2026-01-16
+    location: Orlando, FL, USA
+    continent: North America
+    link: https://www.space-flight.org/docs/2026_winter/2026_winter.html
+    
+  - title: 9th International Meeting on Celestial Mechanics (CELMEC IX)
+    startDate: 2026-09-14
+    endDate: 2026-09-18
+    location: San Martino al Cimino, Viterbo, Italy
+    continent: Europe
+    link: https://www.mat.uniroma2.it/~celmec/celmec9/index.html
+    
+  - title: 30th International Symposium on Space Flight Dynamics (ISSFD)
+    startDate: 2026-06-01
+    endDate: 2026-06-05
+    location: Toulouse, France
+    continent: Europe
+    link: https://www.issfd2026.fr/
+    
+  - title: International Conjunction Assessment Workshop 2025
+    startDate: 2025-06-18
+    endDate: 2025-06-20
+    location: Toulouse, France
+    continent: Europe
+    link: https://spod.cnes.fr/AuthServlet/Control?page=105
+
