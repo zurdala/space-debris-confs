@@ -1,10 +1,9 @@
 ---
 name: Submit Conference
-description: Propose a new conference to be added.
+about: Propose a new conference to be added.
 title: "[NEW]: "
 labels: ["new"]
-assignees:
-  - zurdala
+assignees: "zurdala"
 ---
 
 Thanks for proposing a new event!
