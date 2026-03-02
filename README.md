@@ -9,4 +9,4 @@ Either open a new [issue](https://github.com/zurdala/space-debris-confs/issues/n
 ## Plans
 
 - To keep this updated
-- To improve the filtering options, so only upcoming events are shown by default and past events are separated
+- To improve the filtering options, so only upcoming events are shown by default and past events are separated (this is done manually as of now)
