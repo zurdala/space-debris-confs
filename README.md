@@ -10,3 +10,6 @@ Either open a new [issue](https://github.com/zurdala/space-debris-confs/issues/n
 
 - To keep this updated
 - To improve the filtering options, so only upcoming events are shown by default and past events are separated (this is done manually as of now)
+
+## Dev
+[![Deploy Hugo site to Pages](https://github.com/zurdala/space-debris-events/actions/workflows/hugo.yml/badge.svg)](https://github.com/zurdala/space-debris-events/actions/workflows/hugo.yml)
