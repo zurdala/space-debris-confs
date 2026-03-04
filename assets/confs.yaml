@@ -110,6 +110,13 @@ events:
     location: Brasília, Brazil
     continent: South America
     link: https://www.swfsummit.org/
+
+  - title: 12th European Conference for AeroSpace Sciences (EUCASS)
+    startDate: 2027-06-28
+    endDate: 2027-07-02
+    location: Glasgow, UK
+    continent: Europe
+    link: https://eucass2027.eu/
     
 pastEvents:
 
