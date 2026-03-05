@@ -33,6 +33,13 @@ events:
     location: Antalya, Turkey
     continent: Asia
     link: https://www.iac2026.org/
+    
+  - title: 78th  International Astronautical Congress (IAC)
+    startDate: 2026-09-27
+    endDate: 2026-10-01
+    location: Poznań, Poland
+    continent: Europe
+    link: https://www.iac2027.com/
 
   - title: 46th COSPAR Scientific Assembly
     startDate: 2026-08-01
