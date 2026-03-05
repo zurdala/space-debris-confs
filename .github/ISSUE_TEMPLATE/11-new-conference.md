@@ -11,10 +11,10 @@ Thanks for proposing a new event!
 To make it easier, here is a format to follow, so I just need to copy-paste :)
 
 ```
-- title: example
-  link: https://www.example.com
-  dateStart: 2026-01-13
-  dateEnd: 2026-01-15
-  location: Best Place
-  continent: Antarctica
+  - title: example
+    link: https://www.example.com
+    startDate: 2026-01-13
+    endDate: 2026-01-15
+    location: Best City, Country
+    continent: Antarctica
 ```
