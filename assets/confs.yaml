@@ -27,14 +27,14 @@ events:
     continent: Europe
     link: https://kepassa2026.univ-tln.fr/
 
-  - title: 77th  International Astronautical Congress (IAC)
+  - title: 77th International Astronautical Congress (IAC)
     startDate: 2026-10-05
     endDate: 2026-10-09
     location: Antalya, Turkey
     continent: Asia
     link: https://www.iac2026.org/
     
-  - title: 78th  International Astronautical Congress (IAC)
+  - title: 78th International Astronautical Congress (IAC)
     startDate: 2027-09-27
     endDate: 2027-10-01
     location: Poznań, Poland
@@ -104,7 +104,7 @@ events:
     continent: Europe
     link: https://indico.esa.int/event/648/overview
 
-  - title: 2nd Conference on Earth-Space Sustainability: Law, Stewardship, Equity
+  - title: "2nd Conference on Earth-Space Sustainability: Law, Stewardship, Equity"
     startDate: 2026-03-18
     endDate: 2026-03-20
     location: Leiden, Netherlands
