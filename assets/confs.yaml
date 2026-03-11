@@ -96,6 +96,27 @@ events:
     location: Sevilla, Spain
     continent: Europe
     link: https://atpi.eventsair.com/gncicatt/
+
+  - title: 2nd Space Capacity Allocation For The Sustainability Of Space Activities Workshop
+    startDate: 2026-06-03
+    endDate: 2026-06-05
+    location: Milano, Italy
+    continent: Europe
+    link: https://indico.esa.int/event/648/overview
+
+  - title: 2nd Conference on Earth-Space Sustainability: Law, Stewardship, Equity
+    startDate: 2026-03-18
+    endDate: 2026-03-20
+    location: Leiden, Netherlands
+    continent: Europe
+    link: https://www.universiteitleiden.nl/en/law/institute-of-public-law/institute-of-air-space-law/events/2nd-conference-on-earth-space-sustainability-law-stewardship-equity
+
+  - title: 14th IAASS Space Safety Conference
+    startDate: 2026-10-20
+    endDate: 2026-10-22
+    location: Antibes, France
+    continent: Europe
+    link: https://www.iaassconference2026.org/
     
   - title: 9th International Meeting on Celestial Mechanics (CELMEC IX)
     startDate: 2026-09-14
